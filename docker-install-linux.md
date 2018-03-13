@@ -13,7 +13,7 @@ OR
 - Once the machine is deployed successfully, make a note of the virtual machine's Public IP address 
 
 ## Setup Docker on Ubunutu ( Video) 
-**Check out the video on how to install Docker on Ubuntu :** https://www.youtube.com/watch?v=V9AKvZZCWLc 
+**Check out the video on how to install Docker on Ubuntu :** [https://www.youtube.com/watch?v=V9AKvZZCWLc](https://www.youtube.com/watch?v=V9AKvZZCWLc)
 
 For manual instructions of setting up Docker on Ubuntu see below ...
 
