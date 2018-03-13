@@ -17,7 +17,7 @@ What the Docker for Windows install includes: The installation provides Docker E
 
 For  full documentation on installing Docker toolbox , click [here](https://docs.docker.com/toolbox/toolbox_install_windows/#step-2-install-docker-toolbox)
 
-## Check if docker is installed 
+### Check if docker is installed 
 
 Open Command prompt or Powershell in administrator mode and run the following commands to set up Docker engine and CLI tools
 
@@ -25,9 +25,14 @@ Open Command prompt or Powershell in administrator mode and run the following co
 PS C:\Users\Docker> docker --version
 Docker version 17.03.0-ce, build 60ccb22
 
-PS C:\Users\Docker> docker-compose --version
-docker-compose version 1.11.2, build dfed245
+PS C:\Users\jdoe> docker run hello-world
 
-PS C:\Users\Docker> docker-machine --version
-docker-machine version 0.10.0, build 76ed2a6
+Hello from Docker.
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+1. The Docker client contacted the Docker daemon.
+2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+3. The Docker daemon created a new container from that image which runs the executable that produces the output you are currently reading.
+4. The Docker daemon streamed that output to the Docker client, which sent it to your terminal.
 ```
