@@ -22,7 +22,7 @@ For  full documentation on installing Docker toolbox , click [here](https://docs
 Open Command prompt or Powershell in administrator mode and run the following commands to set up Docker engine and CLI tools
 
  ```
-PS C:\Users\Docker> docker --version
+PS C:\Users\jdoe> docker --version
 Docker version 17.03.0-ce, build 60ccb22
 
 PS C:\Users\jdoe> docker run hello-world
