@@ -2,23 +2,22 @@
 
 ### Before you install Docker on Windows 
 
-**README FIRST for Docker Toolbox and Docker Machine users**: Docker for Windows requires Microsoft Hyper-V to run. The Docker for Windows installer enables Hyper-V for you, if needed, and restart your machine. After Hyper-V is enabled, VirtualBox no longer works, but any VirtualBox VM images remain. VirtualBox VMs created with docker-machine (including the default one typically created during Toolbox install) no longer start. These VMs cannot be used side-by-side with Docker for Windows. However, you can still use docker-machine to manage remote VMs. 
+Requires Microsoft Windows 10 Professional or Enterprise 64-bit. Install [Docker Toolbox](https://docs.docker.com/toolbox/overview/) for older version of Windows 
 
-  
+Documentation : [Docker on Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows)
 ### Setup Docker on Windows 10 (Video) 
 **Check out the video on how to install docker on Windows**:[https://www.youtube.com/watch?v=S7NVloq0EBc](https://www.youtube.com/watch?v=S7NVloq0EBc)
 
 For manual isntructions see below .... 
 
-### Install Docker Tool box 
+### Install
+Double-click Docker for Windows Installer to run the installer. 
 
-Install [Docker Toolbox](https://docs.docker.com/toolbox/overview/), which uses Oracle Virtual Box instead of Hyper-V. 
-What the Docker for Windows install includes: The installation provides Docker Engine, Docker CLI client, Docker Compose, Docker Machine, and Kitematic.
+**[Get Docker CE for Windows](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)**
 
-For  full documentation on installing Docker toolbox , click [here](https://docs.docker.com/toolbox/toolbox_install_windows/#step-2-install-docker-toolbox)
+When the installation finishes, Docker starts automatically. The whale  in the notification area indicates that Docker is running, and accessible from a terminal.
 
-### Check if docker is installed 
-
+### Run
 Open Command prompt or Powershell in administrator mode and run the following commands to set up Docker engine and CLI tools
 
  ```
