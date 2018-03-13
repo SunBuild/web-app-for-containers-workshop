@@ -6,7 +6,7 @@
 
   
 ### Setup Docker on Windows 10 (Video) 
-**Check out the video on how to install docker on Windows **:[https://www.youtube.com/watch?v=S7NVloq0EBc](https://www.youtube.com/watch?v=S7NVloq0EBc)
+**Check out the video on how to install docker on Windows**:[https://www.youtube.com/watch?v=S7NVloq0EBc](https://www.youtube.com/watch?v=S7NVloq0EBc)
 
 For manual isntructions see below .... 
 
